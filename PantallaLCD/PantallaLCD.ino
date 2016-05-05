@@ -7,6 +7,7 @@
   https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home
   
   CONNECTIONS ON ARDUINO UNO R3:
+  
   * GND -> Arduino GND
   * VIN -> Arduino 5V
   * SCL -> Arduino Analog Pin 5
