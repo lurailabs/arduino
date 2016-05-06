@@ -13,7 +13,7 @@
   * SCL -> Arduino Analog Pin 5
   * SDA -> Arduino Analog Pin 4
   
-  AUTHOR: LURAI http://lurailabs.com
+  AUTHOR: Lurai - http://lurailabs.com
   
 ======================================================================
 */
@@ -38,9 +38,11 @@ void setup() {
 
   lcd.setBacklight(HIGH);       // retroiluminación ON
   lcd.print(" lurailabs.com ");
+  delay(3000);
+  lcd.clear();
+  lcd.print("  Probando la   ");
   lcd.setCursor(0, 1);          // cursor a caracter 0 de línea 1 (la segunda)
-  lcd.print("Probando la pan-");
-  lcd.print("talla LCD. ");
+  lcd.print("  pantalla LCD  ");
   
   delay(3000);
   lcd.clear();                  // borrar pantalla
